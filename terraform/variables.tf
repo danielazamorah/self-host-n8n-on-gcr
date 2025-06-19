@@ -7,7 +7,7 @@ variable "gcp_project_id" {
 variable "gcp_region" {
   description = "Google Cloud region for deployment."
   type        = string
-  default     = "us-west2" # Defaulting to your region
+  default     = "us-central1" # Defaulting to your region
 }
 
 variable "db_name" {
@@ -91,5 +91,5 @@ variable "cloud_run_container_port" {
 variable "generic_timezone" {
   description = "Timezone for n8n."
   type        = string
-  default     = "UTC" # As per the working config
+  default     = "America/Mexico_City" # As per the working config
 }
